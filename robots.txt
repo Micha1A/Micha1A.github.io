@@ -1,0 +1,5 @@
+# [2026-08-02] [Robots.txt, SEO, O(1) Indexing] - Organized by Gemini
+User-agent: *
+Allow: /
+
+Sitemap: https://micha1a.github.io/sitemap.xml

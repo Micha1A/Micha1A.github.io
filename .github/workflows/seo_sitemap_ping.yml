@@ -1,0 +1,26 @@
+# [2026-08-02] [GitHub Actions, O(1) SEO Ping, Autonomous Indexing] - Organized by Gemini
+name: O(1) SEO Sitemap Auto-Ping
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '**/*.html'
+      - '**/*.xml'
+
+jobs:
+  ping-search-engines:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Ping Google Search Index
+        run: |
+          echo "Pinging Google with updated sitemap..."
+          curl -s -o /dev/null -w "Google Response: %{http_code}\n" "https://www.google.com/ping?sitemap=https://micha1a.github.io/sitemap.xml" || true
+
+      - name: Ping Bing Search Index
+        run: |
+          echo "Pinging Bing with updated sitemap..."
+          curl -s -o /dev/null -w "Bing Response: %{http_code}\n" "https://www.bing.com/ping?sitemap=https://micha1a.github.io/sitemap.xml" || true

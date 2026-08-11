@@ -1,0 +1,374 @@
+/* [2026-08-01] [CSS, AI Booking Command Bar & Spacer Glitch, O(1)] - Organized by Gemini */
+
+.booking-spacer-box {
+    width: 100%;
+    margin: 1.5rem 0 0.3rem 0;
+    padding: 1.35rem 1.5rem;
+    min-height: 76px;
+    background: rgba(15, 12, 18, 0.85);
+    border: 2px solid rgba(0, 255, 204, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.3), inset 0 0 12px rgba(255, 0, 60, 0.2);
+    backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 50;
+    position: relative;
+    overflow: hidden;
+}
+
+.booking-spacer-box:hover {
+    border-color: #ff003c;
+    box-shadow: 0 0 30px rgba(255, 0, 60, 0.6), inset 0 0 20px rgba(0, 255, 255, 0.3);
+    transform: scale(1.02) translateY(-2px);
+}
+
+.spacer-glitch-text {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 1.55rem;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 4px;
+    text-shadow: -2px 0 0 #ff003c, 2px 0 0 #00ffff, 0 0 12px rgba(0, 255, 255, 0.8);
+    position: relative;
+    display: inline-block;
+    animation: spacerHyperGlitch 1.8s infinite linear;
+}
+
+.whoami p.glitch-active {
+    position: relative;
+    animation: cyberTextGlitch 4s infinite linear;
+    color: #f0f0f0;
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+}
+
+@keyframes spacerHyperGlitch {
+    0%, 82%, 100% {
+        transform: translate3d(0, 0, 0);
+        text-shadow: -2px 0 0 #ff003c, 2px 0 0 #00ffff, 0 0 12px rgba(0, 255, 255, 0.8);
+        color: #ffffff;
+    }
+    84% {
+        transform: translate3d(-3px, 1px, 0) skewX(-4deg);
+        text-shadow: -3px 0 0 #00ffff, 3px 0 0 #ff003c, 0 0 20px #ffffff;
+        color: #ff003c;
+    }
+    86% {
+        transform: translate3d(3px, -2px, 0) skewX(5deg);
+        text-shadow: 2px 0 0 #ffb703, -2px 0 0 #00e676, 0 0 15px #00e676;
+        color: #00ffff;
+    }
+    88% {
+        transform: translate3d(-1px, 0, 0);
+        text-shadow: -2px 0 0 #ff003c, 2px 0 0 #00ffff;
+        color: #ffb703;
+    }
+    92% {
+        transform: translate3d(2px, 2px, 0) skewX(-2deg);
+        text-shadow: 0 0 20px #ff003c;
+        color: #ffffff;
+    }
+}
+
+@keyframes cyberTextGlitch {
+    0%, 88%, 100% {
+        transform: translate3d(0, 0, 0);
+        text-shadow: 0 0 8px #ffb703, 0 0 15px rgba(0, 230, 118, 0.4);
+    }
+    90% {
+        transform: translate3d(-2px, 1px, 0);
+        text-shadow: -2px 0 #ff0055, 2px 0 #00ffff;
+    }
+    92% {
+        transform: translate3d(2px, -1px, 0);
+        text-shadow: 2px 0 #00e676, -2px 0 #ffb703;
+    }
+    94% {
+        transform: translate3d(-1px, 0, 0);
+        text-shadow: -1px 0 #00ffff, 1px 0 #ff0055;
+    }
+    96% {
+        transform: translate3d(1px, 2px, 0);
+        text-shadow: 0 0 15px #00e676;
+    }
+}
+
+.booking-spacer-box.active {
+    border-color: #00e676;
+    box-shadow: 0 0 25px rgba(0, 230, 118, 0.5), inset 0 0 15px rgba(0, 230, 118, 0.2);
+    background: rgba(10, 25, 15, 0.85);
+}
+
+.booking-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100vw; height: 100vh;
+    background: rgba(5, 4, 8, 0.82);
+    backdrop-filter: blur(8px);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.35s ease, visibility 0.35s ease;
+    z-index: 999990;
+}
+
+.booking-overlay.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.booking-close {
+    position: absolute;
+    top: 18px; right: 22px;
+    font-size: 2.3rem;
+    color: #ffb703;
+    cursor: pointer;
+    line-height: 1;
+    z-index: 200;
+    transition: all 0.2s ease;
+}
+
+.booking-close:hover {
+    color: #ff003c;
+    transform: scale(1.15) rotate(90deg);
+    text-shadow: 0 0 15px #ff003c;
+}
+
+.booking-command-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.85);
+    width: 92%;
+    max-width: 780px;
+    margin-top: 0;
+    max-height: 0;
+    padding: 0 2.5rem;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    background: rgba(18, 14, 10, 0.96);
+    border: 0 solid rgba(255, 183, 3, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 25px 90px rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 999999;
+}
+
+.booking-command-container.active {
+    transform: translate(-50%, -50%) scale(1);
+    max-height: 550px;
+    padding: 2.5rem;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    border: 2px solid rgba(255, 183, 3, 0.85);
+    box-shadow: 0 25px 90px rgba(0, 0, 0, 0.95), 0 0 60px rgba(255, 183, 3, 0.45), inset 0 0 30px rgba(255, 145, 0, 0.25);
+}
+
+.booking-command-container::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 2px;
+    background: linear-gradient(90deg, transparent, #ffb703, #00e676, #ffb703, transparent);
+    background-size: 200% 100%;
+    animation: gradientShift 3s linear infinite;
+}
+
+.booking-command-container:hover {
+    border-color: rgba(255, 183, 3, 1.0);
+    box-shadow: 0 25px 90px rgba(0, 0, 0, 0.95), 0 0 70px rgba(255, 183, 3, 0.5), inset 0 0 35px rgba(0, 230, 118, 0.2);
+}
+
+.booking-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+    padding-right: 35px;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 0.88rem;
+    color: #ffb703;
+    letter-spacing: 1px;
+}
+
+.booking-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(255, 183, 3, 0.6);
+}
+
+.pulse-indicator.gold {
+    width: 10px;
+    height: 10px;
+    background: #00e676;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00e676, 0 0 20px #00e676;
+    animation: goldPulse 1.5s infinite alternate;
+}
+
+.booking-tag {
+    background: rgba(0, 230, 118, 0.15);
+    color: #00e676;
+    padding: 0.2rem 0.6rem;
+    border: 1px solid rgba(0, 230, 118, 0.4);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-shadow: 0 0 6px rgba(0, 230, 118, 0.8);
+}
+
+.booking-input-bar {
+    display: flex;
+    align-items: center;
+    background: rgba(8, 7, 5, 0.85);
+    border: 1px solid rgba(255, 183, 3, 0.35);
+    border-radius: 8px;
+    padding: 0.4rem 0.6rem 0.4rem 1rem;
+    gap: 0.8rem;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.booking-input-bar:focus-within {
+    border-color: #ffb703;
+    box-shadow: 0 0 20px rgba(255, 183, 3, 0.4), inset 0 0 10px rgba(255, 183, 3, 0.1);
+}
+
+.prompt-symbol {
+    color: #ffb703;
+    font-family: 'Consolas', monospace;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-shadow: 0 0 8px #ffb703;
+}
+
+#booking-prompt-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 0.95rem;
+    outline: none;
+}
+
+#booking-prompt-input::placeholder {
+    color: rgba(255, 183, 3, 0.5);
+    font-style: italic;
+}
+
+.dispatch-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, #ffb703, #ff9100);
+    color: #0a0a0c;
+    font-family: 'Consolas', monospace;
+    font-weight: 900;
+    font-size: 0.85rem;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(255, 183, 3, 0.5);
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.dispatch-btn:hover {
+    background: linear-gradient(135deg, #00e676, #00b248);
+    color: #ffffff;
+    box-shadow: 0 0 25px rgba(0, 230, 118, 0.8);
+    transform: scale(1.04);
+}
+
+.dispatch-btn:active {
+    transform: scale(0.97);
+}
+
+.booking-options-hint {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.8rem;
+    margin-top: 0.6rem;
+    font-family: 'Consolas', monospace;
+    font-size: 0.75rem;
+    color: #a0a0a5;
+}
+
+.target-badge {
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.target-badge.active, .target-badge:hover {
+    border-color: #00e676;
+    color: #00e676;
+    background: rgba(0, 230, 118, 0.15);
+    text-shadow: 0 0 6px #00e676;
+}
+
+@keyframes goldPulse {
+    0% { transform: scale(0.9); box-shadow: 0 0 5px #00e676; }
+    100% { transform: scale(1.15); box-shadow: 0 0 15px #00e676, 0 0 25px #ffb703; }
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 200% 0%; }
+}
+
+@media (max-width: 900px) {
+    .booking-command-container {
+        top: 5% !important;
+        left: 50% !important;
+        transform: translate(-50%, -20px) scale(0.9) !important;
+        width: 95% !important;
+    }
+    .booking-command-container.active {
+        transform: translate(-50%, 0) scale(1) !important;
+        padding: 1.5rem 1.2rem !important;
+        max-height: 65vh !important;
+        overflow-y: auto !important;
+    }
+    #booking-prompt-input {
+        font-size: 16px !important;
+    }
+    .booking-header { flex-direction: column; align-items: flex-start; gap: 0.4rem; }
+    .booking-options-hint { flex-wrap: wrap; }
+    .spacer-glitch-text { font-size: 1.3rem; letter-spacing: 2px; }
+
+    /* Magnetic bottom bar — mobile only */
+    .booking-spacer-box {
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-bottom: none !important;
+        border-top: 2px solid rgba(0, 255, 204, 0.8) !important;
+        z-index: 9000 !important;
+        min-height: 60px !important;
+        padding: 1rem 1.5rem !important;
+        backdrop-filter: blur(18px) !important;
+        -webkit-backdrop-filter: blur(18px) !important;
+    }
+    /* Disable hover scale on mobile — no mouse, prevents jitter */
+    .booking-spacer-box:hover {
+        transform: none !important;
+    }
+}

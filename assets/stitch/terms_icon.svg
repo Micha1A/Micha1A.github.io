@@ -1,0 +1,76 @@
+<!-- [2026-08-04] [SVG, Stitch-Bro, O(1), Animated Icon] - Organized by Gemini -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <style>
+    @keyframes bar-flash-1 {
+      0%, 100% { opacity: 0.2; transform: scaleX(0.95); fill: #00a8ff; }
+      20%, 40% { opacity: 1; transform: scaleX(1); fill: #ff00aa; }
+    }
+    @keyframes bar-flash-2 {
+      0%, 100% { opacity: 0.2; transform: scaleX(0.95); fill: #00a8ff; }
+      40%, 60% { opacity: 1; transform: scaleX(1); fill: #ffd700; }
+    }
+    @keyframes bar-flash-3 {
+      0%, 100% { opacity: 0.2; transform: scaleX(0.95); fill: #00a8ff; }
+      60%, 80% { opacity: 1; transform: scaleX(1); fill: #39ff14; }
+    }
+    @keyframes seal-spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes border-pulse {
+      0%, 100% { stroke: #00ffcc; stroke-width: 3px; }
+      50% { stroke: #ff00aa; stroke-width: 4px; }
+    }
+    .bar-1 { transform-origin: 50px 65px; animation: bar-flash-1 3s infinite ease-in-out; }
+    .bar-2 { transform-origin: 50px 95px; animation: bar-flash-2 3s infinite ease-in-out; }
+    .bar-3 { transform-origin: 50px 125px; animation: bar-flash-3 3s infinite ease-in-out; }
+    .seal-rot { transform-origin: 140px 145px; animation: seal-spin 10s linear infinite; }
+    .frame-pulse { animation: border-pulse 4s infinite ease-in-out; }
+  </style>
+
+  <rect width="200" height="200" fill="#030610" />
+
+  <!-- Cybernetic Document / Law Tablet Frame -->
+  <!-- Outer double stroke frame -->
+  <polygon points="35,20 135,20 165,50 165,180 35,180" fill="#030610" stroke="#00a8ff" stroke-width="6" stroke-linejoin="round" />
+  <polygon points="35,20 135,20 165,50 165,180 35,180" fill="none" class="frame-pulse" stroke-linejoin="round" />
+  
+  <!-- Folded Corner Geometry -->
+  <polygon points="135,20 135,50 165,50" fill="#030610" stroke="#00ffcc" stroke-width="2.5" />
+  <line x1="130" y1="25" x2="160" y2="55" stroke="#ff00aa" stroke-width="1.5" />
+
+  <!-- Inner Holographic Grid Line -->
+  <rect x="45" y="35" width="105" height="135" fill="none" stroke="#00a8ff" stroke-width="1" stroke-dasharray="4 4" opacity="0.4" />
+
+  <!-- Sequential Flashing Energy Bars (Representing Terms Bullet Points) -->
+  <!-- Bullet 1 -->
+  <circle cx="55" cy="68" r="4" fill="#ff00aa" />
+  <rect x="68" y="62" width="75" height="12" rx="6" class="bar-1" />
+  <rect x="70" y="65" width="71" height="6" rx="3" fill="#ffffff" opacity="0.6" />
+
+  <!-- Bullet 2 -->
+  <circle cx="55" cy="98" r="4" fill="#ffd700" />
+  <rect x="68" y="92" width="75" height="12" rx="6" class="bar-2" />
+  <rect x="70" y="95" width="71" height="6" rx="3" fill="#ffffff" opacity="0.6" />
+
+  <!-- Bullet 3 -->
+  <circle cx="55" cy="128" r="4" fill="#39ff14" />
+  <rect x="68" y="122" width="55" height="12" rx="6" class="bar-3" />
+  <rect x="70" y="125" width="51" height="6" rx="3" fill="#ffffff" opacity="0.6" />
+
+  <!-- Cybernetic Law Seal at Bottom Right (140, 145) -->
+  <g class="seal-rot">
+    <!-- Star / Gear Seal Outline -->
+    <circle cx="140" cy="145" r="25" fill="#030610" stroke="#ffd700" stroke-width="3" stroke-dasharray="8 6" />
+    <polygon points="140,123 145,135 158,135 147,143 151,155 140,147 129,155 133,143 122,135 135,135" fill="none" stroke="#ffd700" stroke-width="1.5" />
+  </g>
+
+  <!-- Stationary Seal Core -->
+  <circle cx="140" cy="145" r="14" fill="#030610" stroke="#39ff14" stroke-width="3" />
+  <circle cx="140" cy="145" r="6" fill="#ffd700" />
+  <circle cx="140" cy="145" r="2" fill="#ffffff" />
+
+  <!-- Left Bottom Security Watermark Lines -->
+  <line x1="50" y1="155" x2="95" y2="155" stroke="#00a8ff" stroke-width="3" stroke-linecap="round" />
+  <line x1="50" y1="163" x2="80" y2="163" stroke="#00a8ff" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+</svg>

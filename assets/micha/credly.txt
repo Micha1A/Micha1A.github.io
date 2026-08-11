@@ -1,0 +1,234 @@
+Showing 13 Badges
+
+Reorder/Edit Badges
+
+Upload Other Badges
+Google Cloud Cybersecurity Certificate
+Google Cloud Cybersecurity Certificate
+Google Cloud
+Issued Jul 6, 2025
+Prompt Design in Vertex AI Skill Badge
+Prompt Design in Vertex AI Skill Badge
+Google Cloud
+Issued Jul 13, 2025
+Explore Generative AI with the Vertex AI Gemini API Skill Badge
+Explore Generative AI with the Vertex AI Gemini API Skill Badge
+Google Cloud
+Issued Aug 23, 2025
+Build and Deploy Machine Learning Solutions on Vertex AI Skill Badge
+Build and Deploy Machine Learning Solutions on Vertex AI Skill Badge
+Google Cloud
+Issued Jul 8, 2025
+Build Real World AI Applications with Gemini and Imagen Skill Badge
+Build Real World AI Applications with Gemini and Imagen Skill Badge
+Google Cloud
+Issued Aug 22, 2025
+Develop GenAI Apps with Gemini and Streamlit Skill Badge
+Develop GenAI Apps with Gemini and Streamlit Skill Badge
+Google Cloud
+Issued Jul 8, 2025
+Set Up a Google Cloud Network Skill Badge
+Set Up a Google Cloud Network Skill Badge
+Google Cloud
+Issued Aug 22, 2025
+Use APIs to Work with Cloud Storage Skill Badge
+Use APIs to Work with Cloud Storage Skill Badge
+Google Cloud
+Issued Sep 1, 2025
+Cybersecurity Fundamentals
+Cybersecurity Fundamentals
+IBM SkillsBuild
+Issued Sep 3, 2025
+AI and Innovation: How MongoDB Enables a Resilient AI Strategy
+AI and Innovation: How MongoDB Enables a Resilient AI Strategy
+MongoDB
+Issued Jan 30, 2026
+Building AI Agents with MongoDB
+Building AI Agents with MongoDB
+MongoDB
+Issued Jan 30, 2026
+Cyber Threat Management
+Cyber Threat Management
+Cisco
+Issued Sep 12, 2025
+Machine Learning Methods and Tools
+Machine Learning Methods and Tools
+IBM SkillsBuild
+Issued Jan 28, 2026
+
+--------------------
+Michael Barlozewski
+ID: cf616690-0467-417d-83dd-e3ce7a64f539
+Email: mbarlozewski@googlemail.com
+Profile: www.credly.com/users/_micha_
+Google Cloud Cybersecurity Certificate
+Issued by: Google Cloud
+Issued to: Michael Barlozewski
+Issued on: 6 July 2025
+Description: This certificate program prepares learners for cloud security analyst, cybersecurity specialist, and
+incident response analyst roles. It builds on familiarity with foundational cybersecurity concepts, including a basic
+understanding of network security, threat analysis, SQL, and incident detection and documentation. Cloud security
+analysts are uniquely positioned as the first line of defense in protecting organizational cloud assets from a wide
+array of cyber-related crimes.
+American Council on Education
+Course Number: GOOG-0010 (v.1) Total Credits: 9 Grade: Pass
+Credit Recommendation:
+• 3 semester hours in Cybersecurity Foundations in the lower-division undergraduate category
+• 3 semester hours in Business Continuity and Incident Response in the lower-division undergraduate
+category
+• 3 semester hours in Cybersecurity Risk Management in the upper-division undergraduate category
+Develop GenAI Apps with Gemini and Streamlit Skill Badge
+Issued by: Google Cloud
+Issued to: Michael Barlozewski
+Issued on: 8 July 2025
+Description: Complete the intermediate Develop GenAI Apps with Gemini and Streamlit skill badge to demonstrate
+skills in the following: text generation, applying function calls with the Python SDK and the Gemini API, and deploying
+a Streamlit application with Cloud Run. You will explore different ways to prompt Gemini for text generation, use
+Cloud Shell to test and iterate on a Streamlit application, and then package it as a Docker container deployed in Cloud
+Run.
+OFFICIAL TRANSCRIPT - ISSUED ON 1 AUGUST 2026
+Page 1 of 5
+Build and Deploy Machine Learning Solutions on Vertex AI Skill Badge
+Issued by: Google Cloud
+Issued to: Michael Barlozewski
+Issued on: 8 July 2025
+Description: Complete the intermediate Build and Deploy Machine Learning Solutions on Vertex AI skill badge to
+demonstrate skills in the following: how to use Google Cloud's unified Vertex AI platform and its AutoML and custom
+training services to train, evaluate, tune, explain, and deploy machine learning solutions.
+Prompt Design in Vertex AI Skill Badge
+Issued by: Google Cloud
+Issued to: Michael Barlozewski
+Issued on: 13 July 2025
+Description: Complete the introductory Prompt Design in Vertex AI skill badge to demonstrate skills in the following:
+prompt engineering, image analysis, and multimodal generative techniques, within Vertex AI. Discover how to craft
+effective prompts, guide generative AI output, and apply Gemini models to real-world marketing scenarios.
+Set Up a Google Cloud Network Skill Badge
+Issued by: Google Cloud
+Issued to: Michael Barlozewski
+Issued on: 22 August 2025
+Description: Complete the Set Up a Google Cloud Network skill badge to demonstrate skills in the following: Set IAM
+features with the gcloud CLI tool; deploy and scale a Web App on Google Compute Engine; provision a Kubernetes
+cluster and break an application into microservices; perform basic networking tasks on Google Cloud Platform; view
+BigQuery logs inside Cloud Logging, and migrate a stand-alone PostgreSQL database to Cloud SQL using a continuous
+Database Migration Service job.
+Build Real World AI Applications with Gemini and Imagen Skill Badge
+Issued by: Google Cloud
+Issued to: Michael Barlozewski
+Issued on: 22 August 2025
+OFFICIAL TRANSCRIPT - ISSUED ON 1 AUGUST 2026
+Page 2 of 5
+Description: Complete the introductory Build Real World AI Applications with Gemini and Imagen skill badge to
+demonstrate skills in the following: image recognition, natural language processing, image generation using Google's
+powerful Gemini and Imagen models, deploying applications on the Vertex AI platform.
+Explore Generative AI with the Vertex AI Gemini API Skill Badge
+Issued by: Google Cloud
+Issued to: Michael Barlozewski
+Issued on: 23 August 2025
+Description: Complete the intermediate Explore Generative AI with the Vertex AI Gemini API skill badge to
+demonstrate skills in the following: text generation, image and video analysis for enhanced content creation, and
+applying function calling techniques within the Gemini API. Discover how to leverage sophisticated Gemini
+techniques, explore multimodal content generation, and expand the capabilities of your AI-powered projects.
+Use APIs to Work with Cloud Storage Skill Badge
+Issued by: Google Cloud
+Issued to: Michael Barlozewski
+Issued on: 1 September 2025
+Description: Complete the Use APIs to Work with Cloud Storage skill badge to demonstrate skills in the following: how
+APIs work in Google, and how to use the Cloud Storage API specifically.
+Cybersecurity Fundamentals
+Issued by: IBM SkillsBuild
+Issued to: Michael Barlozewski
+Issued on: 3 September 2025
+Description: This credential earner demonstrates a foundational understanding of cybersecurity concepts, objectives,
+and practices. This includes cyber threat groups, types of attacks, social engineering, case studies, overall security
+strategies, cryptography, and common approaches that organizations take to prevent, detect, and respond to cyber
+attacks. This also includes an awareness of the job market. Earners can use this knowledge to pursue further
+education for a variety of roles in cybersecurity.
+OFFICIAL TRANSCRIPT - ISSUED ON 1 AUGUST 2026
+Page 3 of 5
+Cyber Threat Management
+Issued by: Cisco
+Issued to: Michael Barlozewski
+Issued on: 12 September 2025
+Description: Cisco verifies the earner of this badge successfully completed the Cyber Threat Management course.
+The holder of this student-level credential is familiar with cybersecurity policies and governance to ensure an
+organization complies with ethics standards and legal and regulatory frameworks. They understand how to do a
+network vulnerability assessment and create a risk management plan, as well as post-incident response.
+Machine Learning Methods and Tools
+Issued by: IBM SkillsBuild
+Issued to: Michael Barlozewski
+Issued on: 28 January 2026
+Description: This credential earner demonstrates knowledge of machine learning foundational concepts such as the
+roles of math and statistics, Python and its libraries, and machine learning algorithms. The individual has conceptual
+understanding of machine applications and can differentiate between supervised, unsupervised, and reinforcement
+learning.
+AI and Innovation: How MongoDB Enables a Resilient AI Strategy
+Issued by: MongoDB
+Issued to: Michael Barlozewski
+Issued on: 30 January 2026
+Description: This skill is for executives or strategic leaders, it reframes AI infrastructure in light of how MongoDB
+solves many of these issues. Issues such as mangagement of data across multiple tools and diverse data types, both
+are leading causes for AI projects to fail in practice. The skill discusses how MongoDB solves these issues whilst
+introducing RAG and AI Agents, two popular techniques used in AI application to highlight how the technology
+supports these.
+Building AI Agents with MongoDB
+Issued by: MongoDB
+Issued to: Michael Barlozewski
+Issued on: 30 January 2026
+OFFICIAL TRANSCRIPT - ISSUED ON 1 AUGUST 2026
+Page 4 of 5
+Description: This digital credential validates your knowledge in building and deploying AI agents using MongoDB. It
+recognizes your understanding of creating a multi-tool AI agent that leverages data stored in MongoDB, defining the
+decision-making capabilities of agents to effectively utilize multiple tools, and implementing both long-term and
+short-term memory for AI agents using MongoDB.
+OFFICIAL TRANSCRIPT - ISSUED ON 1 AUGUST 2026
+Page 5 of 5
+E N D O F T R A N S C R I P T
+ACE TRANSCRIPT LEGEND
+e ACE Transcript is an ocial transcript that contains credentials evaluated by the American Council on Education (ACE).
+e following policies apply only to ACE-endorsed credentials within the transcript. ACE Learning Evaluations connects
+workplace learning with colleges and universities by assessing the quality and equivalency of nontraditional experiences. ACE’s
+recommendations are intended to guide institutional decisions about the award of credit for prior learning.
+ACE Learning Evaluations reviews are conducted by experienced college and university faculty who assess the content, scope,
+and rigor of an organization’s educational program and make appropriate recommendations for comparable college credit and
+competencies achieved by learners. For more information on processes and standards for ACE reviews, visit https://www.acenet.
+edu/Programs-Services/Pages/Credit-Transcripts/Colleges-Universities.aspx.
+DEFINITIONS
+Issued On: e date when the learner completed the associated
+credential.
+Issued For: e learner’s legal name as entered by the learner at the
+time of transcript request.
+American Council on Education Endorsement: Credentials that
+carry an ACE endorsement of recommended college credits or
+validated competencies published on the ACE National Guide.
+Course Number (ACE ID): ACE assigns a unique identier to
+ACE-endorsed credentials (e.g., ACE-0001 (v.1)). e letter prex
+designates the organization providing the experience. Version
+number is based on the date that the credential was earned.
+Credit Recommendations: Contain academic subject area(s)
+recommended for credit aligning to a college course. Credit
+recommendations are designated in semester hour units (SH).
+Levels at which recommendations are issued include vocational/
+certicate, lower division (100–200 level courses), upper division
+(300–400 level courses), and graduate (500+ level courses).
+Competencies: ese competency statements are from recognized,
+industry-approved frameworks, and have been validated by
+the faculty team as outcomes demonstrated by learners who
+successfully complete the evaluated learning experience. ey
+represent workplace-relevant skills, knowledge, and abilities
+expected of professionals in corresponding industries.
+Grade: ACE-endorsed credentials are only included on this
+ocial transcript if the student achieved a passing grade. ACEendorsed courses and exams meet the following minimum grading
+requirements: Students must earn a minimum grade of C for
+vocational/certicate, lower division, and upper division credit and
+a minimum grade of B for graduate-level credit. e credential
+provider might also supply the learner’s actual grade under
+Evidence in the Learner’s badge. Click on the Credential Title to
+access the badge issued to the learner.
+RESOURCES
+Additional information on ACE-endorsed
+educational programs, such as learning outcomes,
+assessment methods, etc., can be found in the ACE
+National Guide at https://www.acenet.edu/nationalguide/. Military training and occupations that carry
+college credit recommendations can be found in the
+ACE Military Guide at https://www.acenet.edu/
+Programs-Services/Pages/Credit-Transcripts/militaryguide-online.aspx.

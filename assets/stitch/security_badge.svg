@@ -1,0 +1,15 @@
+<!-- [2026-08-01] [SVG, Stitch, Frontend, O(1)] - Organized by Gemini -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <style>
+    .shield { fill: transparent; stroke: #00ffcc; stroke-width: 4; }
+    .inner { fill: #030610; }
+    .wave { stroke: #ff00aa; stroke-width: 2; fill: transparent; animation: ripple 2s infinite ease-out; }
+    .core { fill: #00ffcc; }
+    @keyframes ripple { 0% { r: 10; opacity: 1; } 100% { r: 40; opacity: 0; } }
+  </style>
+  <path d="M100,20 L170,40 L170,100 C170,150 100,180 100,180 C100,180 30,150 30,100 L30,40 Z" class="shield inner" />
+  <path d="M100,20 L170,40 L170,100 C170,150 100,180 100,180 C100,180 30,150 30,100 L30,40 Z" class="shield" />
+  <circle cx="100" cy="100" r="20" class="wave" />
+  <circle cx="100" cy="100" r="30" class="wave" style="animation-delay: 1s;" />
+  <rect x="85" y="85" width="30" height="30" class="core" rx="5" />
+</svg>
