@@ -46,16 +46,16 @@
                 },
                 {
                     id: 'bionic',
-                    label: 'Bionic Wasm UI',
+                    label: 'Bionic NN/UI+',
                     icon:  'assets/stitch/bionic_wasm_icon.svg',
-                    section: '✨ BIONIC WASM UI & REFINEMENT',
+                    section: '✨ BIONIC WASM UI & NN-ACCELERATED REFINEMENT',
                     items: [
                         {
                             id:    'bionic-ui',
                             icon:  'assets/stitch/frontend_o1_icon.svg',
-                            label: 'Bionic O(1) Frontend & UI Architecture',
-                            price: 'Starting at €3,500',
-                            scope: 'Transforming static DOMs into dynamic, zero-latency O(1) Wasm architectures. Bionic interactive controls, magnetic gravity physics, custom WebGL injections, and absolute animation fluidity.',
+                            label: 'Bionic O(1)+NN Frontend Architecture',
+                            price: 'Starting at €3,500 <a href="https://o1edge.github.io/o1edge_3/" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-left:12px; font-size:0.75rem; background:#030610; color:#ff00ff; padding:3px 10px; border-radius:4px; border:1px solid #ff00ff; text-decoration:none; vertical-align:middle; text-shadow:0 0 6px rgba(255,0,255,0.7);">⚡ [ EXPLORE O(1) BIONIC+NN DEMO ]</a>',
+                            scope: 'Transforming static DOMs into dynamic, zero-latency O(1) Wasm+NN architectures. Includes neural-network driven interactive controls, magnetic gravity physics, WebGL quantum field injections, and absolute animation fluidity.',
                             terms: 'Tailored frontend refinement and custom high-performance interactive asset creation.'
                         }
                     ]
@@ -166,17 +166,17 @@
                 },
                 {
                     id: 'bionic',
-                    label: 'Bionisches Wasm UI',
+                    label: 'Bionisches NN/UI+',
                     icon:  'assets/stitch/bionic_wasm_icon.svg',
-                    section: '✨ BIONIC WASM UI & WEB-VEREDELUNG',
+                    section: '✨ BIONIC WASM UI & NN-WEB-VEREDELUNG',
                     items: [
                         {
                             id:    'bionic-ui',
                             icon:  'assets/stitch/frontend_o1_icon.svg',
-                            label: 'Bionische O(1) Frontend- & UI-Architektur',
-                            price: 'Ab 2.500 €',
-                            scope: 'Transformation statischer Webseitengrundlagen in dynamische, latenzfreie O(1) Wasm-Architekturen. Bionische interaktive Buttons, magnetische Schwerkraft-Physik, maßgeschneiderte WebGL-Injektionen und absolute Lösungsflüssigkeit.',
-                            terms: 'Maßgeschneiderte Frontend-Veredelung und Erstellung hoch performanter interaktiver Web-Assets.'
+                            label: 'Bionische O(1)+NN Frontend-Architektur',
+                            price: 'Ab 2.500 € <a href="https://o1edge.github.io/o1edge_3/" target="_blank" rel="noopener noreferrer" style="display:inline-block; margin-left:12px; font-size:0.75rem; background:#030610; color:#ff00ff; padding:3px 10px; border-radius:4px; border:1px solid #ff00ff; text-decoration:none; vertical-align:middle; text-shadow:0 0 6px rgba(255,0,255,0.7);">⚡ [ O(1) BIONIC+NN DEMO ERLEBEN ]</a>',
+                            scope: 'Transformation statischer Webseiten in dynamische, latenzfreie O(1) Wasm+NN Architekturen. Neural-Network gesteuerte interaktive Elemente, magnetische Schwerkraft-Physik, WebGL Quantenfeld-Injektionen und absolute Lösungsflüssigkeit.',
+                            terms: 'Maßgeschneiderte Frontend-Veredelung und Erstellung hoch performanter interaktiver Web-Assets auf Transistor-Ebene.'
                         }
                     ]
                 },
