@@ -77,10 +77,11 @@ document.addEventListener('DOMContentLoaded', () => {
         'modal-baremetal': `
             <h3><img src="assets/stitch/baremetal_badge.svg" style="width:40px;height:40px;" alt="Bare-Metal & Audio Mastery Specialist Badge"> Bare-Metal & Audio Mastery</h3>
             <ul>
-                <li>Certified Audiovisual Media Designer (IHK) – Field: Studio Production & Outside Broadcasting</li>
+                <li>Certified Audiovisual Media Designer (IHK) &mdash; Field: Studio Production & Outside Broadcasting</li>
                 <li>Certified Event Management (IHK)</li>
-                <li>Zero-Allocation O(1) <a href="https://micha1a.gitlab.io/" target="_blank" rel="noopener noreferrer" style="color:#00ffcc; text-decoration:none; border-bottom:1px dashed #00ffcc; text-shadow:0 0 8px rgba(0,255,204,0.6);">Audio & Digital Signal Processing ⚡ [EXPLORE QUANTUM SYNTH LAB]</a></li>
-                <li>Assembly, Zig, Rust & High-Performance Computing</li>
+                <li>Zero-Allocation O(1) <a href="https://micha1a.gitlab.io/" target="_blank" rel="noopener noreferrer" style="color:#00ffcc; text-decoration:none; border-bottom:1px dashed #00ffcc; text-shadow:0 0 8px rgba(0,255,204,0.6);">Audio & Digital Signal Processing &#9889; [EXPLORE QUANTUM SYNTH LAB]</a></li>
+                <li>Assembly, Zig, Rust, WebAssembly & High-Performance Computing</li>
+                <li>Neural Network Interfaces: ONNX, WebNN & WebGPU</li>
             </ul>
         `
     };
