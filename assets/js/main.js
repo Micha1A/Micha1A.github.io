@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </ul>
         `,
         'modal-baremetal': `
-            <h3><img src="assets/stitch/baremetal_badge.svg" style="width:40px;height:40px;" alt="Bare-Metal & Audio Mastery Specialist Badge"> Bare-Metal & Audio Mastery</h3>
+            <h3><img src="assets/stitch/baremetal_badge.svg" style="width:40px;height:40px;" alt="Bare-Metal & Audio Mastery Specialist Badge (Systemsoftware-Entwicklung, ONNX, WebNN)"> Bare-Metal & Audio Mastery</h3>
             <ul>
                 <li>Certified Audiovisual Media Designer (IHK) &mdash; Field: Studio Production & Outside Broadcasting</li>
                 <li>Certified Event Management (IHK)</li>
