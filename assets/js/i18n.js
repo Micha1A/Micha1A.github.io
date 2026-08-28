@@ -11,7 +11,7 @@
     const TRANSLATIONS = {
         en: {
             page_title: 'Michael Barlozewski | Cloud Security Specialist, Bare-Metal & AI Developer',
-            meta_desc:  'System Software Engineer, Cloud Security Specialist & AI Developer. Certified in Azure AI Agents, MLOps, Google Cloud Security & Zero-Allocation O(1) Bare-Metal Architecture.',
+            meta_desc:  'System Software Engineer, Cloud Security Specialist & AI Developer. Client-Side AI (WebNN, ONNX, WebGPU), Progressive Web Apps, Google Cloud Security & Zero-Allocation O(1) Bare-Metal Architecture.',
             og_title:   'Michael Barlozewski | Cloud Security Specialist & AI Developer',
             og_desc:    'High-Performance Computing, Google Cloud Security and Enterprise AI Agents Engineering from transistor level to global cloud clusters.',
             subtitle:   'System Software Engineer, Cloud Security Specialist &amp; AI Developer',
@@ -22,7 +22,7 @@
         },
         de: {
             page_title: 'Michael Barlozewski | Cloud-Security-Spezialist, Bare-Metal & KI-Entwickler',
-            meta_desc:  'Systemsoftware-Entwickler, Cloud-Security-Spezialist & KI-Entwickler (Deutschland). Azure AI Agents, Google Cloud Security & Zero-Allocation O(1) Bare-Metal Architektur.',
+            meta_desc:  'Systemsoftware-Entwickler, Cloud-Security-Spezialist & KI-Entwickler (Deutschland). Client-Side KI (WebNN, ONNX, WebGPU), Progressive Web Apps, Google Cloud Security & Zero-Allocation O(1) Bare-Metal Architektur.',
             og_title:   'Michael Barlozewski | Cloud-Security-Spezialist & KI-Entwickler',
             og_desc:    'High-Performance Computing, Google Cloud Security & Enterprise AI Agents Engineering – vom Transistor-Level bis in globale Cloud-Cluster.',
             subtitle:   'Systemsoftware-Entwickler, Cloud-Security-Spezialist &amp; KI-Entwickler',
