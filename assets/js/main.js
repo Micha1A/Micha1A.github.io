@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <li><strong>Microsoft Azure AI:</strong> AI Agents & GenAI Apps, NLP & AI Workload Security</li>
                 <li><strong>Enterprise Cyber Threat & ML:</strong> IBM Cybersecurity & ML, Cisco Cyber Threat Management</li>
                 <li><strong>Modern AI Data Systems:</strong> MongoDB AI Agents & RAG Architecture</li>
-                <li><strong>Network Security:</strong> <a href="https://www.credential.net/1e7b8bfe-fac0-436e-a787-2de6aa8f55ef" target="_blank" rel="noopener noreferrer" style="color:#ffffff; text-decoration:underline; text-decoration-style:dashed; text-underline-offset:3px;">ICSI | CNSS Certified Network Security Specialist</a></li>
+                <li><strong>Network Security:</strong> ICSI | CNSS Certified Network Security Specialist</li>
             </ul>
         `,
         'modal-baremetal': `
