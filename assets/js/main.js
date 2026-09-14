@@ -1,5 +1,3 @@
-// [2026-08-01] [JS, O(1) Engine, Easter Egg] - Organized by Gemini
-
 document.addEventListener('DOMContentLoaded', () => {
     let clickCount = 0;
     let clickTimer = null;
