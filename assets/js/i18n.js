@@ -1,5 +1,3 @@
-// [2026-08-03] [JS, i18n, O(1), navigator.language, German/English] - Organized by Gemini
-
 (function () {
     // ─────────────────────────────────────────────────────────────────
     // TRANSLATION TABLE
