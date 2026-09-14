@@ -1,4 +1,4 @@
-// [2026-08-01] [JS, O(1) Web Audio Synthesizer & Booking Dispatch Suite] - Organized by Gemini
+// [2026-08-01] [JS, O(1) Web Audio Synthesizer & Booking Dispatch Suite]
 
 document.addEventListener('DOMContentLoaded', () => {
     let audioCtx = null;
